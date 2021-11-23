@@ -1,10 +1,9 @@
 function Header() {
-    return (
-        <div>
-            Hello I'm a Header Component !! 
-        </div>
-    )
+  return (
+    <div>
+      <p> Hello I'm a Header Component !! </p>
+    </div>
+  );
 }
 
-export default Header
-Hello I'm a Header Component !! 
+export default Header;
