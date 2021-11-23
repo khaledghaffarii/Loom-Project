@@ -1,7 +1,13 @@
+import { Image } from 'next/image';
 function Header() {
   return (
     <div className="flex justify-between  max-w-6xl mx-5 xl:mx-auto">
-      <p> Hello I'm a Header Component !! </p>
+      <Image
+        src="../assets/loomLogo.webp"
+        layout="fill"
+        objectFit="contain"
+        priority={false}
+      />
     </div>
   );
 }
