@@ -1,20 +1,20 @@
 module.exports = {
-  mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
+  purge: ["./components/**/*.{js,ts,jsx,tsx}", "./pages/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        "accent-1": "#333",
+      },
       backgroundColor: (theme) => ({
         ...theme("colors"),
-        primary: "#3490dc",
-        secondary: "#ffed4a",
-        danger: "#e3342f",
-        blue:"#23212d"
+
+        blue: "#23212d",
       }),
     },
   },
-  variants: {
-    extend: {},
-  },
+  variants: {},
   plugins: [],
 };
