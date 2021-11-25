@@ -2,9 +2,8 @@ import Image from "next/image";
 import Images from "../assets/logo.png";
 function Header() {
   return (
-    <div className="shadow-sm border-b border-accent-1 bg-blue sticky  top-0 z-50">
-      <div className="flex justify-between mb-10 max-w-6xl mx-5 space-x-36 ">
-        <div className=" relative p-12 mt-12  cursor-pointer my-auto ">
+    <div className="border-b border-accent-1 bg-blue sticky top-0 z-50 md:px-10 grid grid-cols-8">
+        <div className="p-12 relative flex items-center h-10 cursor-pointer my-auto">
           <Image
             src={Images}
             layout="fill"
@@ -13,7 +12,8 @@ function Header() {
             objectPosition="left"
           />
         </div>
-        <div className=" hidden lg:flex md:flex lg:space-x-80 ">
+  
+        <div className=" hidden lg:flex  lg:space-x-36 ">
           <div
             class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-8 p-10"
             id="navbar-collapse"
@@ -93,7 +93,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+ 
   );
 }
 
