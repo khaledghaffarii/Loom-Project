@@ -11,49 +11,49 @@
 
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2  w-max text-white rounded hover:text-gray-500"
+//             className="p-2 lg:px-4 md:mx-2  w-max text-white rounded hover:text-gray-500"
 //           >
 //             HOME
 //           </a>
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2 w-max  text-white rounded hover:bg-white-200 hover:text-gray-500"
+//             className="p-2 lg:px-4 md:mx-2 w-max  text-white rounded hover:bg-white-200 hover:text-gray-500"
 //           >
 //             NEW ARRIVALS
 //           </a>
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2 w-max text-white rounded hover:bg-white-200 hover:text-gray-500 "
+//             className="p-2 lg:px-4 md:mx-2 w-max text-white rounded hover:bg-white-200 hover:text-gray-500 "
 //           >
 //             DESIGNER
 //           </a>
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2 w-max text-white rounded  hover:text-gray-500 "
+//             className="p-2 lg:px-4 md:mx-2 w-max text-white rounded  hover:text-gray-500 "
 //           >
 //             OCCASION
 //           </a>
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2 w-max text-white rounded hover:text-gray-500 "
+//             className="p-2 lg:px-4 md:mx-2 w-max text-white rounded hover:text-gray-500 "
 //           >
 //             STYLE
 //           </a>
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2 w-max text-white text-center border border-transparent  hover:text-gray-500 "
+//             className="p-2 lg:px-4 md:mx-2 w-max text-white text-center border border-transparent  hover:text-gray-500 "
 //           >
 //             SALE
 //           </a>
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2 w-max  text-white hover:text-gray-500  mt-1 md:mt-0 "
+//             className="p-2 lg:px-4 md:mx-2 w-max  text-white hover:text-gray-500  mt-1 md:mt-0 "
 //           >
 //             ADVANCED SEARCH
 //           </a>{" "}
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2 w-max text-white  text-center border border-transparent rounded hover:text-gray-500 "
+//             className="p-2 lg:px-4 md:mx-2 w-max text-white  text-center border border-transparent rounded hover:text-gray-500 "
 //           >
 //             NEW DESIGNER
 //           </a>
@@ -65,19 +65,19 @@
 //         >
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2 text-white rounded hover:text-gray-500"
+//             className="p-2 lg:px-4 md:mx-2 text-white rounded hover:text-gray-500"
 //           >
 //             ACCOUNT
 //           </a>
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-white-200 hover:text-gray-500 transition-colors duration-300"
+//             className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-white-200 hover:text-gray-500 transition-colors duration-300"
 //           >
 //             SEARCH
 //           </a>
 //           <a
 //             href="#"
-//             class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-white-200 hover:text-gray-500 transition-colors duration-300"
+//             className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-white-200 hover:text-gray-500 transition-colors duration-300"
 //           >
 //             CART(0)
 //           </a>
@@ -97,32 +97,54 @@ export default function Header() {
   const [flyerTwo, setFlyerTwo] = React.useState(false);
 
   return (
-    <header class="fixed top-0 w-full clearNav z-50">
-      <div class="max-w-5xl mx-auto flex flex-wrap p-5 flex-col md:flex-row">
-        <div className="flex flex-row items-center justify-between p-3 md:p-1">
+    <header className="top-0 w-full clearNav  z-50 border-b border-gray-700">
+      <div className=" mx-auto flex flex-wrap p-5 flex-col md:flex-row">
+        <div className="flex  p-3 ">
           <a
             href="/"
-            class="flex   text-gray-200 mb-4 md:mb-0"
+            className="hidden md:flex  animate-pulse text-gray-200 mb-4 md:mb-0 ml-1 "
           >
             <Image src={Images} width={80} height={110} />
           </a>
-         
+          <button
+            className="text-white pb-4 cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none content-end ml-auto"
+            type="button"
+            aria-label="button"
+            onClick={() => setNavbarOpen(!navbarOpen)}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="feather feather-menu"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
         </div>
         <div
           className={
-            "md:flex flex-grow items-center " +
+            "md:flex flex-grow items-center -ml-96" +
             (navbarOpen ? " flex" : " hidden")
           }
         >
-          <div class="md:ml-auto md:mr-auto font-4 pt-1 md:pl-14 pl-1 flex flex-wrap items-center md:text-base text-1xl md:justify-center justify-items-start ">
-            <a class="mr-11 pr-2 cursor-pointer text-gray-300 hover:text-white font-semibold tr04 font-serif ">
+          <div className="md:ml-auto md:mr-auto font-4 pt-1 md:pl-14 pl-1 hidden lg:flex flex-wrap items-center md:text-base text-1xl md:justify-center justify-items-start">
+            <a className="mr-11 pr-2 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
               NEW ARRIVALS
             </a>
             <div className="relative">
               <button
                 type="button"
-                class="
-                   group  font-serif rounded-md font-semibold text-gray-300 inline-flex items-center text-base font-medium focus:outline-none pb-8'
+                className="
+                   group  rounded-md font-semibold text-gray-300 inline-flex items-center text-base font-medium focus:outline-none pb-8'
                   "
                 onMouseEnter={() => (setFlyer(!flyer), setFlyerTwo(false))}
               >
@@ -198,20 +220,30 @@ export default function Header() {
                 </div>
               </div>
             </div>
-            <a class="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-serif font-semibold tr04">
+            <a className="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
               OCCASION
             </a>
-            <a class="mr-5 cursor-pointer text-gray-300 hover:text-white font-serif font-semibold tr04">
+            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
               STYLE
             </a>
-            <a class="mr-5 cursor-pointer text-gray-300 hover:text-white font-semibold font-serif  tr04">
+            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold  tr04">
               SALE
             </a>
+            <a className=" cursor-pointer text-gray-300 hover:text-white font-semibold  tr04">
+              ADVANCED SEARCH
+            </a>
           </div>
-          <a className="mr-5 cursor-pointer text-gray-300 hover:text-white font-semibold font-serif mt-1 tr04">
-            {" "}
-            ADVANCED SEARCH
-          </a>
+          <div className=" font-4 pt-1  hidden lg:flex flex-wrap items-center md:text-base text-1xl md:justify-center justify-items-start">
+            <a className="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+              ACCOUNT
+            </a>
+            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+              SEARCH
+            </a>
+            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold  tr04">
+              CART (0)
+            </a>
+          </div>
         </div>
       </div>
     </header>
