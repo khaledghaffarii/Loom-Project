@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Carousel from "../Components/Carousel";
 import Header from "../Components/Header";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Carousel />
     </div>
   );
 }
