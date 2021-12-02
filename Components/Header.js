@@ -97,12 +97,12 @@ export default function Header() {
   const [flyerTwo, setFlyerTwo] = React.useState(false);
 
   return (
-    <header className="top-0 w-full clearNav  z-50 border-b border-gray-700">
-      <div className=" mx-auto flex flex-wrap p-5 flex-col md:flex-row">
+    <header className="top-0 w-full clearNav  z-50 border-b border-gray-700 sticky fixed bg-blue">
+      <div className=" mx-auto flex flex-wrap p-5 flex-col md:flex-row ">
         <div className="flex  p-3 ">
           <a
             href="/"
-            className="hidden md:flex  animate-pulse text-gray-200 mb-4 md:mb-0 ml-1 "
+            className="hidden md:flex  animate-pulse text-gray-200 mb-4 md:mb-0 ml-1 cursor-pointer hover:scale-110 transition transform -200 ease-out"
           >
             <Image src={Images} width={80} height={110} />
           </a>
@@ -137,7 +137,7 @@ export default function Header() {
           }
         >
           <div className="md:ml-auto md:mr-auto font-4 pt-1 md:pl-14 pl-1 hidden lg:flex flex-wrap items-center md:text-base text-1xl md:justify-center justify-items-start">
-            <a className="mr-11 pr-2 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+            <a className="mr-11 pr-2 cursor-pointer text-gray-300 hover:text-white font-semibold tr04  hover:scale-90 transition transform -200 ease-out">
               NEW ARRIVALS
             </a>
             <div className="relative">
@@ -148,7 +148,10 @@ export default function Header() {
                   "
                 onMouseEnter={() => (setFlyer(!flyer), setFlyerTwo(false))}
               >
-                <span className="tr04"> DESIGNER</span>
+                <span className="tr04 cursor-pointer hover:scale-90 transition transform -200 ease-out">
+                  {" "}
+                  DESIGNER
+                </span>
                 <svg
                   className={
                     flyer === true
@@ -182,10 +185,10 @@ export default function Header() {
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-800 tr04"
                     >
                       <div className="ml-4">
-                        <p className="text-base font-medium text-white">
+                        <p className="text-base font-medium text-white cursor-pointer hover:scale-90 transition transform -200 ease-out">
                           NINE4 TEMPLATE #1
                         </p>
-                        <p className="mt-1 text-sm text-gray-500">
+                        <p className="mt-1 text-sm text-gray-500 cursor-pointer hover:scale-90 transition transform -200 ease-out">
                           First Template
                         </p>
                       </div>
@@ -195,10 +198,10 @@ export default function Header() {
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-800 tr04"
                     >
                       <div className="ml-4">
-                        <p className="text-base font-medium text-white">
+                        <p className="text-base font-medium text-white cursor-pointer hover:scale-90 transition transform -200 ease-out">
                           NINE4 TEMPLATE #2
                         </p>
-                        <p className="mt-1 text-sm text-gray-500">
+                        <p className="mt-1 text-sm text-gray-500 cursor-pointer hover:scale-90 transition transform -200 ease-out">
                           Second Template
                         </p>
                       </div>
@@ -208,7 +211,7 @@ export default function Header() {
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-800 tr04"
                     >
                       <div className="ml-4">
-                        <p className="text-base font-medium text-white">
+                        <p className="text-base font-medium text-white cursor-pointer hover:scale-90 transition transform -200 ease-out">
                           NINE4 TEMPLATE #3
                         </p>
                         <p className="mt-1 text-sm text-gray-500">
@@ -220,27 +223,27 @@ export default function Header() {
                 </div>
               </div>
             </div>
-            <a className="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+            <a className="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-semibold tr04 cursor-pointer hover:scale-90 transition transform -200 ease-out">
               OCCASION
             </a>
-            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold tr04cursor-pointer hover:scale-90 transition transform -200 ease-out">
               STYLE
             </a>
-            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold  tr04">
+            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold  tr04 cursor-pointer hover:scale-90 transition transform -200 ease-out">
               SALE
             </a>
-            <a className=" cursor-pointer text-gray-300 hover:text-white font-semibold  tr04">
+            <a className=" cursor-pointer text-gray-300 hover:text-white font-semibold  tr04 cursor-pointer hover:scale-90 transition transform -200 ease-out">
               ADVANCED SEARCH
             </a>
           </div>
           <div className=" font-4 pt-1  hidden lg:flex flex-wrap items-center md:text-base text-1xl md:justify-center justify-items-start">
-            <a className="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+            <a className="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-semibold tr04 cursor-pointer hover:scale-90 transition transform -200 ease-out">
               ACCOUNT
             </a>
-            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold tr04 cursor-pointer hover:scale-90 transition transform -200 ease-out">
               SEARCH
             </a>
-            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold  tr04">
+            <a className="mr-12 cursor-pointer text-gray-300 hover:text-white font-semibold  tr04 cursor-pointer hover:scale-90 transition transform -200 ease-out">
               CART (0)
             </a>
           </div>
