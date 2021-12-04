@@ -25,8 +25,8 @@ function publicity() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center  text-center  pt-36 pb-36 ">
-        <div className="grid pr-20">
+      <div className="flex justify-center  text-center  lg:pt-36 pb-20 ">
+        <div className="lg:grid lg:pr-20">
           {" "}
           <Image
             src="/under6.png "
@@ -47,7 +47,7 @@ function publicity() {
           height={550}
           className="animate-pulse cursor-pointer hover:scale-110 transition transform -200 ease-out"
         />
-        <div className="grid pl-20">
+        <div className="lg:grid lg:pl-20">
           {" "}
           <Image
             src="/under5.png "
@@ -64,42 +64,60 @@ function publicity() {
         </div>
       </div>
       <div className="flex justify-center">
-        <Image
-          src="/Facebook.png "
-          width={25}
-          height={25}
-          className="cursor-pointer hover:scale-110 transition transform -200 ease-out p-[1.5px] object-contain "
-        />{" "}
-        <Image
-          src="/twitter.png "
-          width={25}
-          height={25}
-          className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
-        />{" "}
-        <Image
-          src="/instagram.png "
-          width={25}
-          height={25}
-          className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
-        />{" "}
-        <Image
-          src="/pintrest.png "
-          width={25}
-          height={25}
-          className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
-        />{" "}
-        <Image
-          src="/tumbir1.png "
-          width={25}
-          height={25}
-          className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
-        />{" "}
-        <Image
-          src="/youtube.png "
-          width={25}
-          height={25}
-          className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
-        />
+        <div className="pr-3">
+          {" "}
+          <Image
+            src="/Facebook.png "
+            width={25}
+            height={25}
+            className="cursor-pointer hover:scale-110 transition transform -200 ease-out p-[1.5px] object-contain "
+          />{" "}
+        </div>{" "}
+        <div className="pr-2">
+          {" "}
+          <Image
+            src="/twitter.png "
+            width={25}
+            height={25}
+            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+          />{" "}
+        </div>
+        <div className="pr-2">
+          {" "}
+          <Image
+            src="/instagram.png "
+            width={25}
+            height={25}
+            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+          />{" "}
+        </div>
+        <div className="pr-2">
+          {" "}
+          <Image
+            src="/pintrest.png "
+            width={25}
+            height={25}
+            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+          />{" "}
+        </div>
+        <div className="pr-2">
+          {" "}
+          <Image
+            src="/tumbir1.png "
+            width={25}
+            height={25}
+            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+          />{" "}
+        </div>
+        <div className="pr-2">
+          {" "}
+          <Image
+            src="/youtube.png "
+            width={25}
+            height={25}
+            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+          />
+        </div>
       </div>
       <p className="text-white text-center p-5 font-mono cursor-pointer hover:scale-90 transition transform -200 ease-out">
         1000'S OF DRESSES IN STOCK

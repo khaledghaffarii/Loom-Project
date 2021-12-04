@@ -1,93 +1,4 @@
-// import Image from "next/image";
-// import Images from "../assets/logo.png";
-// function Header() {
-//   return (
-//     <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
-//       <div className="object-contain">
-//         <Image src={Images} width={80} height={130} />
-//       </div>
 
-//       <div className=" hidden lg:flex flex-grow justify-evenly max-w-9xl ">
-
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2  w-max text-white rounded hover:text-gray-500"
-//           >
-//             HOME
-//           </a>
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2 w-max  text-white rounded hover:bg-white-200 hover:text-gray-500"
-//           >
-//             NEW ARRIVALS
-//           </a>
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2 w-max text-white rounded hover:bg-white-200 hover:text-gray-500 "
-//           >
-//             DESIGNER
-//           </a>
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2 w-max text-white rounded  hover:text-gray-500 "
-//           >
-//             OCCASION
-//           </a>
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2 w-max text-white rounded hover:text-gray-500 "
-//           >
-//             STYLE
-//           </a>
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2 w-max text-white text-center border border-transparent  hover:text-gray-500 "
-//           >
-//             SALE
-//           </a>
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2 w-max  text-white hover:text-gray-500  mt-1 md:mt-0 "
-//           >
-//             ADVANCED SEARCH
-//           </a>{" "}
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2 w-max text-white  text-center border border-transparent rounded hover:text-gray-500 "
-//           >
-//             NEW DESIGNER
-//           </a>
-//         </div>
-
-//         <div
-
-//           id="navbar-collapse"
-//         >
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2 text-white rounded hover:text-gray-500"
-//           >
-//             ACCOUNT
-//           </a>
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-white-200 hover:text-gray-500 transition-colors duration-300"
-//           >
-//             SEARCH
-//           </a>
-//           <a
-//             href="#"
-//             className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-white-200 hover:text-gray-500 transition-colors duration-300"
-//           >
-//             CART(0)
-//           </a>
-//         </div>
-
-//     </header>
-//   );
-// }
-
-// export default Header;
 import React from "react";
 import Image from "next/image";
 import Images from "../assets/logo.png";
@@ -97,7 +8,7 @@ export default function Header() {
   const [flyerTwo, setFlyerTwo] = React.useState(false);
 
   return (
-    <header className="top-0 w-full clearNav  z-50 border-b border-gray-700 sticky fixed bg-blue">
+    <header className="top-0 w-full hover:bg-gray-900  clearNav  z-50 border-b border-gray-700 sticky fixed bg-blue overflow-hidden ">
       <div className=" mx-auto flex flex-wrap p-5 flex-col md:flex-row ">
         <div className="flex  p-3 ">
           <a
