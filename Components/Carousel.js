@@ -64,7 +64,7 @@ function Carousel() {
               src="/logo5.png"
               width={40}
               height={40}
-              className="animate-spin pr "
+              className="animate-spin "
             />
             <Image src="/loom4.png" width={150} height={10} className=" " />
           </div>
@@ -93,7 +93,7 @@ function Carousel() {
           </Slider>
         </div>
       </div>
-      <div className="lgflex lg:justify-center lg:pt-36">
+      <div className="lg:flex lg:justify-center lg:pt-36">
         <div className="lg:w-2/3 ">
           {" "}
           <Slider {...settings3}>
