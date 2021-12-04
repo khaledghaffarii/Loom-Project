@@ -94,27 +94,52 @@ function Carousel() {
         </div>
       </div>
       <div className="lg:flex lg:justify-center lg:pt-36">
-        <div className="lg:w-2/3 ">
+        <div className="lg:w-2/3 rounded-xl ">
           {" "}
           <Slider {...settings3}>
             <div>
-              <Image src="/couture2.png" width={2000} height={800} />
+              <Image
+                src="/couture2.png"
+                className=" rounded-xl "
+                width={2000}
+                height={800}
+              />
             </div>{" "}
             <div>
               {" "}
-              <Image src="/couture3.jpg" width={2000} height={800} />
+              <Image
+                className=" rounded-xl "
+                src="/couture3.jpg"
+                width={2000}
+                height={800}
+              />
             </div>
             <div>
               {" "}
-              <Image src="/couture5.jpeg" width={2000} height={800} />
+              <Image
+                className=" rounded-xl "
+                src="/couture5.jpeg"
+                width={2000}
+                height={800}
+              />
             </div>
             <div>
               {" "}
-              <Image src="/couture5.jpg" width={2000} height={800} />
+              <Image
+                className=" rounded-xl "
+                src="/couture5.jpg"
+                width={2000}
+                height={800}
+              />
             </div>
             <div>
               {" "}
-              <Image src="/couture6.jpg" width={2000} height={800} />
+              <Image
+                className=" rounded-xl "
+                src="/couture6.jpg"
+                width={2000}
+                height={800}
+              />
             </div>{" "}
           </Slider>
         </div>
