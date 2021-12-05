@@ -4,6 +4,7 @@ import Header from "../Components/Header";
 import Publicity from "../Components/Publicity";
 import ProductPoster from '../Components/ProductPoster';
 import Brands from '../Components/Brands';
+import Footer from '../Components/Footer';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Publicity/>
       <ProductPoster/>
       <Brands/>
+      <Footer />
     </div>
   );
 }
