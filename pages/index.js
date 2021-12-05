@@ -3,6 +3,7 @@ import Carousel from "../Components/Carousel";
 import Header from "../Components/Header";
 import Publicity from "../Components/Publicity";
 import ProductPoster from '../Components/ProductPoster';
+import Brands from '../Components/Brands';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Carousel/>
       <Publicity/>
       <ProductPoster/>
+      <Brands/>
     </div>
   );
 }
