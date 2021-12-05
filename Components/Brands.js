@@ -3,6 +3,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee,  } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebookF,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 function Brands() {
   var settings = {
     infinite: true,
@@ -76,75 +83,60 @@ function Brands() {
               objectFit="contain "
             />
           </div>{" "}
-          {/* <div>
-            <Image
-              src="/faviana.png"
-              width={1000}
-              height={200}
-              objectFit="contain "
+        </div>
+      </div>{" "}
+      <div className="flex justify-center p-20 ">
+        <div className="w-20 h-10 border-l"></div>{" "}
+        <h1 className="text-center text-white  text-5xl font-mono  hover:bg-gray-900 cursor-pointer">
+          STAY IN THE KNOW
+        </h1>
+      </div>{" "}
+      <div className="flex justify-center">
+        {" "}
+        <Image
+          className="animate-pulse cursor-pointer hover:scale-90 transition transform -200 ease-out "
+          src="/call.jpg"
+          width={300}
+          height={200}
+          objectFit=""
+        />
+        <div>
+          {" "}
+          <p className=" text-white text-sm font-serif p-5 w-96">
+            Sign up for our mailing list and get weekly updates on new
+            additions, sales, promotions, and more!
+          </p>
+          <div class="w-full px-3">
+            <input
+              class="appearance-none block w-96 bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="grid-password"
+              type="password"
+              placeholder="Email Enter Address"
             />
-          </div>{" "}
-          <div>
-            {" "}
-            <Image
-              src="/jadore.png"
-              width={1000}
-              height={300}
-              objectFit="contain "
-            />
+            <div class="md:w-2/3 pl-60">
+              <button
+                class="shadow bg-red-900 w-36 hover:bg-red-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                type="button"
+              >
+                Join
+              </button>
+            </div>
           </div>
-          <div>
-            {" "}
-            <Image
-              src="/jovani.png"
-              width={1000}
-              height={300}
-              objectFit="contain "
-            />
-          </div>{" "}
-          <div>
-            <Image
-              src="/lara.png"
-              width={1000}
-              height={300}
-              objectFit="contain "
-            />
-          </div>{" "}
-          <div>
-            {" "}
-            <Image
-              src="/morrell.png"
-              width={1000}
-              height={300}
-              objectFit="contain "
-            />
-          </div>
-          <div>
-            {" "}
-            <Image
-              src="/portia.png"
-              width={1000}
-              height={300}
-              objectFit="contain "
-            />
-          </div>{" "}
-          <div>
-            <Image
-              src="/sherri.png"
-              width={1000}
-              height={300}
-              objectFit="contain "
-            />
-          </div>{" "}
-          <div>
-            {" "}
-            <Image
-              src="/tarik.png"
-              width={1000}
-              height={300}
-              objectFit="contain "
-            />
-          </div> */}
+        </div>
+      </div>
+      <div className="flex justify-center pt-11">
+        {" "}
+        <div className="cursor-pointer">
+          {" "}
+          <FontAwesomeIcon icon={faFacebookF} color="white" />
+        </div>
+        <div className="pl-5 cursor-pointer ">
+          <FontAwesomeIcon icon={faTwitter} color="white" />{" "}
+        </div>
+        <div className="pl-5 cursor-pointer">
+          {" "}
+          <FontAwesomeIcon icon={faLinkedin} color="white" />{" "}
+          
         </div>
       </div>
     </div>
