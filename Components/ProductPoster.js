@@ -145,7 +145,11 @@ function ProductPoster({ in: inProp }) {
         </div>
         <div className=" cursor-pointer hover:bg-gray-900 ">
           {" "}
-          <Image src="/accessoiry.jpg " width={400} height={557} />
+          <Image
+            src="https://i.imgur.com/ge4wqfj.jpg"
+            width={400}
+            height={557}
+          />
           <div className=" pb-10 pt-11 cursor-pointer ">
             {" "}
             <h1 className="text-center text-white font-medium font-serif text-4xl pb- ">
@@ -225,7 +229,12 @@ function ProductPoster({ in: inProp }) {
         <div className="p-10 pb-36">
           <Slider {...settings}>
             <div>
-              <Image src="/arab1.jpg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/arab1.jpg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -236,7 +245,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>
             <div>
-              <Image src="/arab4.jpg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/arab4.jpg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -247,7 +261,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man3.jpg" width={254} height={400} className="rounded-xl " />
+              <Image
+                src="/man3.jpg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -258,7 +277,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man1.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/man1.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -269,7 +293,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man5.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/man5.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -280,7 +309,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man6.webp" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/man6.webp"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -291,7 +325,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div className="">
-              <Image src="/man9.jpg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/man9.jpg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -302,7 +341,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man10.jpg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/man10.jpg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -313,7 +357,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man11.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/man11.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -324,7 +373,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man12.jpeg" width={254} height={400} className="rounded-xl " />
+              <Image
+                src="/man12.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -335,7 +389,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man13.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/man13.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -346,7 +405,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man14.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/man14.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -357,7 +421,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man15.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/man15.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -368,7 +437,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/man16.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/man16.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -385,7 +459,12 @@ function ProductPoster({ in: inProp }) {
         <div className="p-10 pb-20">
           <Slider {...settings}>
             <div className="">
-              <Image src="/acc1.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/acc1.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -396,7 +475,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/acc2.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/acc2.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -407,7 +491,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/acc3.webp" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/acc3.webp"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -418,7 +507,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/acc4.webp" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/acc4.webp"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -429,7 +523,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/acc5.webp" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/acc5.webp"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -440,7 +539,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/acc6.webp" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/acc6.webp"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -451,7 +555,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div className="">
-              <Image src="/acc7.webp" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/acc7.webp"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -462,7 +571,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/acc8.jpg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/acc8.jpg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -473,7 +587,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/acc10.webp" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/acc10.webp"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -490,7 +609,12 @@ function ProductPoster({ in: inProp }) {
         <div className="p-10 pb-20">
           <Slider {...settings}>
             <div className="">
-              <Image src="/baby1.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/baby1.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -501,7 +625,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/baby2.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/baby2.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -512,7 +641,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/baby3.jpg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/baby3.jpg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -523,7 +657,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/baby4.jpg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/baby4.jpg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -534,7 +673,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/baby5.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/baby5.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -545,7 +689,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/baby6.jpg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/baby6.jpg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -556,7 +705,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div className="">
-              <Image src="/baby7.jpeg" width={254} height={400} className="rounded-xl " />
+              <Image
+                src="/baby7.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -567,7 +721,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/baby8.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/baby8.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -578,7 +737,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/baby9.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/baby9.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -589,7 +753,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/baby10.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/baby10.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -600,7 +769,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/baby11.jpeg" width={254} height={400} className="rounded-xl " />
+              <Image
+                src="/baby11.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -617,7 +791,12 @@ function ProductPoster({ in: inProp }) {
         <div className="p-10 pb-20">
           <Slider {...settings}>
             <div className="">
-              <Image src="/girl1.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/girl1.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -628,7 +807,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/girl2.jpeg" width={254} height={400} className="rounded-xl " />
+              <Image
+                src="/girl2.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -639,7 +823,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/girl3.jpeg" width={254} height={400} className="rounded-xl " />
+              <Image
+                src="/girl3.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -650,7 +839,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/girl4.jpeg" width={254} height={400} className="rounded-xl " />
+              <Image
+                src="/girl4.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -661,7 +855,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/girl5.jpeg" width={254} height={400} className="rounded-xl " />
+              <Image
+                src="/girl5.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -672,7 +871,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/girl6.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/girl6.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -683,7 +887,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div className="">
-              <Image src="/girl7.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/girl7.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -694,7 +903,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/girl8.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/girl8.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -705,7 +919,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/girl9.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/girl9.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -716,7 +935,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/girl10.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/girl10.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -727,7 +951,12 @@ function ProductPoster({ in: inProp }) {
               </div>
             </div>{" "}
             <div>
-              <Image src="/girl11.jpeg" width={254} height={400} className="rounded-xl "/>
+              <Image
+                src="/girl11.jpeg"
+                width={254}
+                height={400}
+                className="rounded-xl "
+              />
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
@@ -740,9 +969,7 @@ function ProductPoster({ in: inProp }) {
           </Slider>
         </div>
       ) : null}
-      <div className=" w-full bg-blue pb-20">
-        
-      </div>
+      <div className=" w-full bg-blue pb-20"></div>
     </div>
   );
 }
