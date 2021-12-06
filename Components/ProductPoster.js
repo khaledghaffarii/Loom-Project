@@ -225,7 +225,7 @@ function ProductPoster({ in: inProp }) {
         <div className="p-10 pb-36">
           <Slider {...settings}>
             <div>
-              <Image src="/arab6.jpg" width={254} height={400} className="rounded-xl "/>
+              <Image src="/arab1.jpg" width={254} height={400} className="rounded-xl "/>
               <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
               <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW

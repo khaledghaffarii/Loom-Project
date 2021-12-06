@@ -9,7 +9,7 @@ function publicity() {
           src="/reviews.png "
           width={239}
           height={63}
-         
+          className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
         />
         <div>
           <p className="text-gray-300 cursor-pointer hover:scale-110 transition transform -200 ease-out">
