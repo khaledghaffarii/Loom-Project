@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "./dist/loom",
+    "public": "out",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
