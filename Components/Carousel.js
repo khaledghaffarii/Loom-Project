@@ -47,7 +47,9 @@ function Carousel() {
     <div>
       <div className="flex justify-between w-full -mt-20 mb-20 fixed cursor-pointer shadow-sm">
         <div className=" flex h-11 w-48 mt-96 -ml-16 bg-white transform rotate-90 hover:scale-y-110 transition  ">
-          <p className="mr-5 ml-1 "><span className="text-bold">4.3</span> /5</p>
+          <p className="mr-5 ml-1 ">
+            <span className="text-bold">4.3</span> /5
+          </p>
           <div>
             <Image
               className=" "
@@ -72,15 +74,13 @@ function Carousel() {
             </div>
             <ShoppingCartIcon className="h-7  animate-pulse text-black  " />
           </div>
-           <div className=" flex bg-blue opacity-90 h-11 w-36 mt-96 mr-1 bg-white transform  hover:scale-y-110 transition  ">
-              <div>
-              
+          <div className=" flex bg-blue opacity-90 h-11 w-36 mt-96 mr-1 bg-white transform  hover:scale-y-110 transition  ">
+            <div>
               <HeartIcon className="h-7  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white pl-6 pt-1 mt-1" />
-              </div>
-              <p className="mt-2 ml-3 text-white ">Favorit</p>
             </div>
+            <p className="mt-2 ml-3 text-white ">Favorit</p>
+          </div>
         </div>
-        
       </div>{" "}
       <div className="lg:flex mt-28 ml-8 justify-center ">
         <div className=" lg:p-10 ">
@@ -136,13 +136,9 @@ function Carousel() {
                 than 16,600 people worldwide.
               </p>
             </div>
-            
           </Slider>
-          
         </div>
-        
       </div>
-      
       <div className="lg:flex lg:justify-between lg:pt-36  ">
         <div className="lg:w-2/3 rounded-xl ml-80">
           {" "}
@@ -150,7 +146,7 @@ function Carousel() {
             <div>
               <Image
                 src="/couture2.png"
-                className=" rounded-xl "
+                className=" rounded-xl cursor-pointer"
                 width={2000}
                 height={800}
               />
@@ -158,7 +154,7 @@ function Carousel() {
             <div>
               {" "}
               <Image
-                className=" rounded-xl "
+                className=" rounded-xl cursor-pointer"
                 src="/couture3.jpg"
                 width={2000}
                 height={800}
@@ -167,7 +163,7 @@ function Carousel() {
             <div>
               {" "}
               <Image
-                className=" rounded-xl "
+                className=" rounded-xl cursor-pointer"
                 src="/couture5.jpeg"
                 width={2000}
                 height={800}
@@ -176,7 +172,7 @@ function Carousel() {
             <div>
               {" "}
               <Image
-                className=" rounded-xl "
+                className=" rounded-xl cursor-pointer"
                 src="/couture5.jpg"
                 width={2000}
                 height={800}
@@ -185,20 +181,15 @@ function Carousel() {
             <div>
               {" "}
               <Image
-                className=" rounded-xl "
+                className=" rounded-xl cursor-pointer"
                 src="/couture6.jpg"
                 width={2000}
                 height={800}
               />
             </div>{" "}
           </Slider>
-          
         </div>
-          
-        
       </div>
-      
-      
     </div>
   );
 }
