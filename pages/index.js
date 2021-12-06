@@ -8,7 +8,7 @@ import Footer from '../Components/Footer';
 
 export default function Home() {
   return (
-    <div className="bg-blue ">
+    <div className="bg-gray-900 ">
       <Head>
         <title>Loom</title>
         <link rel="icon" href="/favicon.ico" />
