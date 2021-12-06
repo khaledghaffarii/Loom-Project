@@ -32,20 +32,20 @@ function publicity() {
             src="/under6.png "
             width={256}
             height={256}
-            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+            className=""
           />{" "}
           <Image
             src="/under4.png "
             width={256}
             height={256}
-            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+            className=""
           />
         </div>
         <Image
           src="/black.png "
           width={550}
           height={550}
-          className="animate-pulse cursor-pointer hover:scale-110 transition transform -200 ease-out"
+          className="animate-pulse "
         />
         <div className="lg:grid lg:pl-20">
           {" "}
@@ -53,13 +53,13 @@ function publicity() {
             src="/under5.png "
             width={256}
             height={256}
-            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+            className=""
           />
           <Image
             src="/under3.png "
             width={256}
             height={256}
-            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+            className=""
           />
         </div>
       </div>
@@ -70,7 +70,7 @@ function publicity() {
             src="/Facebook.png "
             width={25}
             height={25}
-            className="cursor-pointer hover:scale-110 transition transform -200 ease-out p-[1.5px] object-contain "
+            className=" p-[1.5px] object-contain "
           />{" "}
         </div>{" "}
         <div className="pr-2">
@@ -79,7 +79,7 @@ function publicity() {
             src="/twitter.png "
             width={25}
             height={25}
-            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+            className=""
           />{" "}
         </div>
         <div className="pr-2">
@@ -88,7 +88,7 @@ function publicity() {
             src="/instagram.png "
             width={25}
             height={25}
-            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+            className=""
           />{" "}
         </div>
         <div className="pr-2">
@@ -97,7 +97,7 @@ function publicity() {
             src="/pintrest.png "
             width={25}
             height={25}
-            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+            className=""
           />{" "}
         </div>
         <div className="pr-2">
@@ -106,7 +106,7 @@ function publicity() {
             src="/tumbir1.png "
             width={25}
             height={25}
-            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+            className=""
           />{" "}
         </div>
         <div className="pr-2">
@@ -115,7 +115,7 @@ function publicity() {
             src="/youtube.png "
             width={25}
             height={25}
-            className="cursor-pointer hover:scale-110 transition transform -200 ease-out"
+            className=""
           />
         </div>
       </div>
