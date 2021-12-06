@@ -3,6 +3,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
+import {
+  BookmarkIcon,
+  ChatIcon,
+  DotsHorizontalIcon,
+  EmojiHappyIcon,
+  HeartIcon,
+  PaperAirplaneIcon,
+  ShoppingCartIcon,
+  StarIcon,
+} from "@heroicons/react/solid";
 function Carousel() {
   var settings = {
     infinite: true,
@@ -35,24 +45,60 @@ function Carousel() {
   };
   return (
     <div>
-      {" "}
-      <div className="lg:flex justify-center ">
+      <div className="flex justify-between w-full -mt-20 mb-20 fixed cursor-pointer shadow-sm">
+        <div className=" flex h-11 w-48 mt-96 -ml-16 bg-white transform rotate-90 hover:scale-y-110 transition  ">
+          <p className="mr-5 ml-1 "><span className="text-bold">4.3</span> /5</p>
+          <div>
+            <Image
+              className=" "
+              src="/reviewsio-logo.svg"
+              width={100}
+              height={10}
+            />
+            <div className="flex">
+              <StarIcon className="h-5 w-5 text-black" />
+              <StarIcon className="h-5 w-5 text-black" />
+              <StarIcon className="h-5 w-5 text-black" />
+              <StarIcon className="h-5 w-5 text-black" />
+              <StarIcon className="h-5 w-5 text-black" />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex cursor-pointer ">
+          <div className="bg-white w-16 p-4 -mr-28 rounded-full h-16 mr-11 hover:scale-90 transition transform -200 ease-out ">
+            <div className=" -top-2 -right-2 -mt-4 -ml-5 w-5 -mr-4 bg-red-500 rounded-full h-5">
+              <p className="text-white text-sm text-center"> 0 </p>
+            </div>
+            <ShoppingCartIcon className="h-7  animate-pulse text-black  " />
+          </div>
+           <div className=" flex bg-blue opacity-90 h-11 w-36 mt-96 mr-1 bg-white transform  hover:scale-y-110 transition  ">
+              <div>
+              
+              <HeartIcon className="h-7  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white pl-6 pt-1 mt-1" />
+              </div>
+              <p className="mt-2 ml-3 text-white ">Favorit</p>
+            </div>
+        </div>
+        
+      </div>{" "}
+      <div className="lg:flex mt-28 ml-8 justify-center ">
         <div className=" lg:p-10 ">
           <Slider {...settings2}>
             <div className="">
-              <Image src="/store.png" width={1468} height={470} />
+              <Image src="/store.png" width={1450} height={470} />
             </div>
             <div>
-              <Image src="/store2.png" width={1468} height={470} />
+              <Image src="/store2.png" width={1450} height={470} />
             </div>{" "}
             <div>
-              <Image src="/store3.png" width={1468} height={470} />
+              <Image src="/store3.png" width={1450} height={470} />
             </div>{" "}
             <div>
-              <Image src="/store4.png" width={1468} height={470} />
+              <Image src="/store4.png" width={1450} height={470} />
             </div>{" "}
             <div>
-              <Image src="/store5.png" width={1468} height={470} />
+              <Image src="/store5.png" width={1450} height={470} />
             </div>
           </Slider>
         </div>
@@ -90,11 +136,15 @@ function Carousel() {
                 than 16,600 people worldwide.
               </p>
             </div>
+            
           </Slider>
+          
         </div>
+        
       </div>
-      <div className="lg:flex lg:justify-center lg:pt-36">
-        <div className="lg:w-2/3 rounded-xl ">
+      
+      <div className="lg:flex lg:justify-between lg:pt-36  ">
+        <div className="lg:w-2/3 rounded-xl ml-80">
           {" "}
           <Slider {...settings3}>
             <div>
@@ -142,8 +192,13 @@ function Carousel() {
               />
             </div>{" "}
           </Slider>
+          
         </div>
+          
+        
       </div>
+      
+      
     </div>
   );
 }
