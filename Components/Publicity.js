@@ -4,7 +4,7 @@ function publicity() {
   return (
     <div className="py-10 ">
       {" "}
-      <div className=" flex space-x-4 pb-10 justify-center border-b border-gray-700 pt-20 ">
+      <div className="pl-5 flex space-x-4 pb-10 justify-center border-b border-gray-700 pt-20 ">
         <Image
           src="https://i.imgur.com/G44C71q.png"
           width={239}

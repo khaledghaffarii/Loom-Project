@@ -57,7 +57,7 @@ function ProductPoster({ in: inProp }) {
     setAccessory(false);
   }
   return (
-    <div className="bg-blue">
+    <div className="bg-gray-900">
       <div className="flex justify-center p-20">
         {" "}
         <h1 className="text-center text-white  text-6xl font-serif  ">

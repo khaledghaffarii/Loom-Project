@@ -82,7 +82,7 @@ function Carousel() {
           </div>
         </div>
       </div>{" "}
-      <div className="lg:flex mt-28 ml-8 justify-center ">
+      <div className="lg:flex mt-28 lg:ml-8 justify-center ">
         <div className=" lg:p-10 ">
           <Slider {...settings2}>
             <div className="">
@@ -103,9 +103,9 @@ function Carousel() {
           </Slider>
         </div>
 
-        <div className="  lg:w-3/2 lg:pt-20 lg:pl-10">
+        <div className="  lg:w-3/2 pt-20 pl-1 lg:pl-10">
           {" "}
-          <div className="lg:flex pb-10">
+          <div className="lg:flex hidden pb-10">
             <Image
               src="/logo5.png"
               width={40}
