@@ -45,8 +45,8 @@ function Carousel() {
   };
   return (
     <div>
-      <div className="flex justify-between w-full -mt-20 mb-20 fixed cursor-pointer shadow-sm">
-        <div className=" flex h-11 w-48 mt-96 -ml-16 bg-white transform rotate-90 hover:scale-y-110 transition  ">
+      <div className="lg:flex justify-between lg:w-full -mt-20 mb-20 fixed cursor-pointer shadow-sm">
+        <div className=" lg:flex hidden h-11 w-48 mt-96 -ml-16 bg-white transform rotate-90 hover:scale-y-110 transition  ">
           <p className="mr-5 ml-1 ">
             <span className="text-bold">4.3</span> /5
           </p>
@@ -67,7 +67,7 @@ function Carousel() {
           </div>
         </div>
 
-        <div className="flex cursor-pointer ">
+        <div className="lg:flex hidden cursor-pointer ">
           <div className="bg-white w-16 p-4 -mr-28 rounded-full h-16 mr-11 hover:scale-90 transition transform -200 ease-out ">
             <div className=" -top-2 -right-2 -mt-4 -ml-5 w-5 -mr-4 bg-red-500 rounded-full h-5">
               <p className="text-white text-sm text-center"> 0 </p>
@@ -140,7 +140,7 @@ function Carousel() {
         </div>
       </div>
       <div className="lg:flex lg:justify-between lg:pt-36  ">
-        <div className="lg:w-2/3 rounded-xl ml-80">
+        <div className="lg:w-2/3 w-80 ml-5 rounded-xl lg:ml-80 mt-10 lg:mt-0">
           {" "}
           <Slider {...settings3}>
             <div>

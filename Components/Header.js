@@ -8,9 +8,9 @@ export default function Header() {
   const [flyerTwo, setFlyerTwo] = React.useState(false);
 
   return (
-    <header className="top-0 w-full hover:bg-gray-900  clearNav  z-50 border-b border-gray-700 sticky fixed bg-blue">
-      <div className=" mx-auto flex flex-wrap p-5 flex-col md:flex-row ">
-        <div className="flex  p-3 ">
+    <header className="lg:top-0 lg:w-full hover:bg-gray-900  clearNav  z-50 border-b border-gray-700 sticky fixed bg-blue">
+      <div className=" mx-auto lg:flex flex-wrap p-5 flex-col md:flex-row ">
+        <div className="lg:flex  p-3 ">
           <a
             href="/"
             className="hidden md:flex  animate-pulse text-gray-200 mb-4 md:mb-0 ml-1 cursor-pointer hover:scale-110 transition transform -200 ease-out"

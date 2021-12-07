@@ -65,7 +65,7 @@ function ProductPoster({ in: inProp }) {
         </h1>
         <ArrowDownIcon className="h-12 w-20 text-white pt-2 animate-bounce" />
       </div>
-      <div className="flex justify-evenly p-10 ">
+      <div className="lg:flex justify-evenly p-10 ">
         {" "}
         <div>
           {" "}
@@ -104,13 +104,13 @@ function ProductPoster({ in: inProp }) {
           />
         </div>
       </div>
-      <div className="flex justify-center p-20 ">
-        <div className="w-20 h-10 border-l"></div>{" "}
-        <h1 className="text-center text-white  text-3xl font-mono  hover:bg-gray-900 cursor-pointer">
+      <div className="lg:flex justify-center p-20 ">
+        <div className="lg:w-20 lg:h-10 border-l"></div>{" "}
+        <h1 className="text-center text-white  lg:text-3xl text-xl font-mono  hover:bg-gray-900 cursor-pointer">
           More to Explore
         </h1>
       </div>
-      <div className="flex justify-evenly p-10">
+      <div className="lg:flex justify-evenly p-10">
         {" "}
         <div className=" cursor-pointer hover:bg-gray-900 ">
           {" "}
@@ -162,12 +162,12 @@ function ProductPoster({ in: inProp }) {
         </div>
       </div>
       <div className="flex justify-center p-20 ">
-        <div className="w-20 h-10 border-l"></div>{" "}
-        <h1 className="text-center text-white  text-3xl font-mono  hover:bg-gray-900 cursor-pointer">
+        <div className="lg:w-20 lg:h-10 lg:border-l"></div>{" "}
+        <h1 className="text-center text-white  lg:text-3xl font-mono  hover:bg-gray-900 cursor-pointer">
           Best Category
         </h1>
       </div>
-      <nav className="lg:flex justify-center p-10 border-t border-gray-700">
+      <nav className=" flex justify-center pt-5 ml-5 lg:p-10 border-t border-gray-700">
         {man ? (
           <button className="text-gray-500 underline scale-90 pr-10  cursor-pointer  ">
             Man
@@ -226,7 +226,7 @@ function ProductPoster({ in: inProp }) {
         )}
       </nav>
       {man ? (
-        <div className="p-10 pb-36">
+        <div className="p-10 lg:pb-36 ">
           <Slider {...settings}>
             <div>
               <Image
@@ -235,11 +235,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -251,11 +251,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+               <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -267,11 +267,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -283,11 +283,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+               <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -299,11 +299,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -315,11 +315,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+               <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -331,11 +331,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -347,11 +347,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -363,11 +363,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+               <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -379,11 +379,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+               <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -395,11 +395,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -411,11 +411,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+               <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -427,11 +427,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+               <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -443,11 +443,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+               <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -456,7 +456,7 @@ function ProductPoster({ in: inProp }) {
         </div>
       ) : null}
       {accessory ? (
-        <div className="p-10 pb-20">
+        <div className="p-10 lg:pb-36 ">
           <Slider {...settings}>
             <div className="">
               <Image
@@ -465,11 +465,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -481,11 +481,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -497,11 +497,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -513,11 +513,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -529,11 +529,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -545,11 +545,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -561,11 +561,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -577,11 +577,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -593,11 +593,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -606,7 +606,7 @@ function ProductPoster({ in: inProp }) {
         </div>
       ) : null}{" "}
       {baby ? (
-        <div className="p-10 pb-20">
+        <div className="p-10 lg:pb-36 ">
           <Slider {...settings}>
             <div className="">
               <Image
@@ -615,11 +615,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -631,11 +631,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -647,11 +647,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -663,11 +663,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -679,11 +679,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -695,11 +695,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -711,11 +711,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -727,11 +727,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -743,11 +743,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -759,11 +759,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -775,11 +775,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -788,7 +788,7 @@ function ProductPoster({ in: inProp }) {
         </div>
       ) : null}{" "}
       {girl ? (
-        <div className="p-10 pb-20">
+        <div className="p-10 lg:pb-36 ">
           <Slider {...settings}>
             <div className="">
               <Image
@@ -797,11 +797,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -813,11 +813,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -829,11 +829,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -845,11 +845,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -861,11 +861,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -877,11 +877,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -893,11 +893,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -909,11 +909,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -925,11 +925,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -941,11 +941,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>
@@ -957,11 +957,11 @@ function ProductPoster({ in: inProp }) {
                 height={400}
                 className="rounded-xl "
               />
-              <p className="text-white text-lg font-bold ml-2 mt- cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
-              <button className="text-white text-md   w-36 h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
+              <p className="text-white text-lg font-bold ml-2 cursor-pointer hover:scale-90 transition transform -200 ease-out "></p>{" "}
+              <button className=" hidden lg:text-white text-md lg:w-36 lg:h-11 font-bold ml-11 mt-5 cursor-pointer hover:scale-90 transition transform -200 ease-out text-center font-mono">
                 SHOP NOW
               </button>
-              <div className="flex">
+              <div className="hidden lg:flex">
                 <HeartIcon className="h-7 ml-11 mt-3 hover:scale-125 cursor-pointer transition-all -150 ease-out text-red-500 animate-pulse pl-10 pt-1" />
                 <ShoppingCartIcon className="h-7 mt-3 ml-3  hover:scale-125 cursor-pointer transition-all -150 ease-out text-white animate-pulse pl- pt-1" />
               </div>

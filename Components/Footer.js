@@ -55,7 +55,7 @@ function Footer() {
           </p>{" "}
           <p className="text-white pb-6 cursor-pointer font-serif   ">
             <input
-              class="appearance-none block w-80 bg-gray-900 text-gray-700 border border-gray-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              class="appearance-none block lg:w-80 w-48 bg-gray-900 text-gray-700 border border-gray-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-password"
               type="password"
               placeholder="Email Enter Address"
@@ -93,7 +93,7 @@ function Footer() {
           </p>{" "}
         </div>{" "}
       </div>
-      <div className="cursor-pointer pl-3 lg:flex justify-between ">
+      <div className="cursor-pointer pl-3 lg:flex lg:justify-between ">
         <Image
           src="/footerImage.png"
           width={170}
@@ -101,7 +101,7 @@ function Footer() {
           objectFit="contain "
           className="cursor-pointer "
         />
-        <div className="flex p-5 pr-11">
+        <div className="flex lg:p-5 pr-11">
           <div className="pl-3">
             <Image
               src="/tof2.png"
