@@ -82,7 +82,7 @@ function Carousel() {
           </div>
         </div>
       </div>{" "}
-      <div className="lg:flex mt-28 lg:ml-8 justify-center ">
+      <div className="lg:flex mt-28 lg:ml-8 justify-center border lg:border-none">
         <div className=" lg:p-10 ">
           <Slider {...settings2}>
             <div className="">
@@ -140,7 +140,7 @@ function Carousel() {
         </div>
       </div>
       <div className="lg:flex lg:justify-between lg:pt-36  ">
-        <div className="lg:w-2/3 w-80 ml-5 rounded-xl lg:ml-80 mt-10 lg:mt-0">
+        <div className="lg:w-2/3 w-80 ml-7 rounded-xl lg:ml-80 mt-10 lg:mt-0">
           {" "}
           <Slider {...settings3}>
             <div>
