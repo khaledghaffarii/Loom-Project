@@ -79,7 +79,7 @@ function ProductPoster({ in: inProp }) {
             </p>
           </div>
           <Image
-            src="/more1.jpg "
+            src="https://i.imgur.com/bjYEfbK.jpg"
             width={570}
             height={415}
             className=" cursor-pointer hover:scale-110 transition transform -200 ease-out"
@@ -97,7 +97,7 @@ function ProductPoster({ in: inProp }) {
             </p>
           </div>
           <Image
-            src="/new.jpg "
+            src="https://i.imgur.com/P3AUgLa.jpg "
             width={570}
             height={415}
             className=" cursor-pointer hover:scale-110 transition transform -200 ease-out"
@@ -115,7 +115,7 @@ function ProductPoster({ in: inProp }) {
         <div className=" cursor-pointer hover:bg-gray-900 ">
           {" "}
           <Image
-            src="/arab1.jpg "
+            src="https://i.imgur.com/NLbhf2s.jpg "
             width={400}
             height={557}
             className=" cursor-pointer "
@@ -132,7 +132,7 @@ function ProductPoster({ in: inProp }) {
         </div>
         <div className=" cursor-pointer hover:bg-gray-900 ">
           {" "}
-          <Image src="/man.jpg " width={400} height={557} />
+          <Image src="https://i.imgur.com/9qrq31V.jpg" width={400} height={557} />
           <div className=" pb-10 pt-11 cursor-pointer hover:bg-gray-900 ">
             {" "}
             <h1 className="text-center text-white font-medium font-serif text-4xl pb- ">
